@@ -1,3 +1,12 @@
 [submodule "eureka-service"]
 	path = eureka-service
 	url = https://github.com/yjpfj1203/eureka-service.git
+[submodule "user-service"]
+	path = user-service
+	url = https://github.com/yjpfj1203/user-service.git
+[submodule "common-service"]
+	path = common-service
+	url = https://github.com/yjpfj1203/common-service.git
+[submodule "statistics-service"]
+	path = statistics-service
+	url = https://github.com/yjpfj1203/statistics-service.git
