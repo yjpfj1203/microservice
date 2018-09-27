@@ -10,3 +10,6 @@
 [submodule "statistics-service"]
 	path = statistics-service
 	url = https://github.com/yjpfj1203/statistics-service.git
+[submodule "config-server"]
+	path = config-server
+	url = https://github.com/yjpfj1203/config-server.git

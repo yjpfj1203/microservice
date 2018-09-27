@@ -8,3 +8,4 @@
 out
 gen
 /common-service/
+/config-server/src/main/resources/bootstrap.yml
