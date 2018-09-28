@@ -82,7 +82,7 @@ spring:
   
   * 配置encrypt.key<br>
    访问地址：http://localhost:8100/encrypt/status，返回结果如下
-  ```json
+  ```text
     {
         description: "No key was installed for encryption service",
         status: "NO_KEY"
@@ -93,7 +93,7 @@ spring:
   encrypt.key: test123456789
   ``` 
    再次访问http://localhost:8100/encrypt/status，返回结果如下
-  ```json
+  ```text
   {
       status: "OK"
   }
