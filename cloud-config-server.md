@@ -66,7 +66,7 @@ spring:
 2018-09-27 17:00:40.079  INFO 27164 --- [           main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/yjpfj1203/static-resource/config-files/application-dev.yml'}, MapPropertySource {name='https://github.com/yjpfj1203/static-resource/config-files/user-service.yml (document #0)'}]}
 
 ```
-##对配置文件敏感信息进行加密
+##对配置文件敏感信息进行加密（{cipher}）
 * 首先[下载jce1.8](https://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html)<br>
  将目录中的local_policy.jar，US_export_policy.jar拷贝到jdk的lib/security下，mac下为/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/security<br>
  测试配置成功<br>
